@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Websites-Shifton</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="wrapper__header">
+      <nav class="wrapper__nav">
+        <a href="#"><img src="img/logo.png" alt="logo" class="nav__logo" /></a>
+        <button class="burger__menu" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="navbar__menu" id="menu">
+          <button class="close__menu" id="closeBtn">✕</button>
+          <li><a href="#" class="lang-mainburger">главная</a></li>
+          <li><a href="#" class="lang-tarifburger">тарифы</a></li>
+          <li><a href="#" class="lang-chanceburger">возможности</a></li>
+          <li><a href="#" class="lang-blogburger">блог</a></li>
+          <li><a href="#" class="lang-chavoburger">чаво</a></li>
+          <li><a href="#" class="lang-startburger">вход</a></li>
+          <li>
+            <button class="nav-btn lang-navregisterburger">Регистрация</button>
+          </li>
+        </ul>
+        <div class="wrapper__blur"></div>
+        <div class="wrapper__popup">
+          <div class="popup__frame">
+            <div class="frame__container">
+              <h1 class="window__title lang-windowregistr">Регистрация</h1>
+              <div class="exit__popup">&times;</div>
+            </div>
+            <form class="frame__registr">
+              <input
+                type="email"
+                placeholder="email"
+                class="email__window"
+                required="required"
+              />
+              <input
+                type="password"
+                placeholder="password"
+                class="password__window"
+                required="required"
+              />
+              <button type="submit" class="btn-registr lang-windowbtn">
+                Зарегестрироваться
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="navbar__container">
+          <ul class="navbar__ul">
+            <li><a href="#" class="lang-main">главная</a></li>
+            <li><a href="#" class="lang-tarif">тарифы</a></li>
+            <li><a href="#" class="lang-chance">возможности</a></li>
+            <li><a href="#" class="lang-blog">блог</a></li>
+            <li><a href="#" class="lang-chavo">чаво</a></li>
+            <li><a href="#" class="lang-start">вход</a></li>
+            <button class="nav-btn lang-navregister">Регистрация</button>
+            <select name="RU" class="nav__select" id="select">
+              <option value="ru" class="nav__option">RU</option>
+              <option value="en" class="nav__option">EN</option>
+              <option value="cz" class="nav__option">CZ</option>
+            </select>
+          </ul>
+        </div>
+      </nav>
+      <div class="wrapper__part">
+        <div class="part__header">
+          <div class="header__info">
+            <h1 class="header__title lang-title">
+              Автоматизированное составление <br />
+              рабочих расписаний онлайн
+            </h1>
+            <div class="header__p">
+              <p class="lang-money">Экономия времени и денег <br /></p>
+              <p class="lang-work">
+                Грамотное распределение рабочей нагрузки <br />
+              </p>
+              <p class="lang-optimal">
+                Построение оптимального сменного рабочего <br />
+                расписания для любого количества сотрудников
+              </p>
+            </div>
+          </div>
+          <button class="free-bth lang-free">Попробовать бесплатно</button>
+        </div>
+      </div>
+    </header>
+    <main class="wrapper__main">
+      <div class="firstpart__main">
+        <h2 class="main_firsttitle animate lang-shifton">
+          Возможности Shifton
+        </h2>
+        <div class="main__cards animate">
+          <div class="number__card">
+            <img src="img/timemanagement.png" alt="first-image-card" />
+            <div class="info__card">
+              <span class="span__main lang-worker"
+                >Распределяй <br />
+                работу</span
+              >
+              <span class="span__card lang-exchange">Планирование смен</span>
+              <br />
+              <ul class="ul__card">
+                <li class="lang-template">Настраиваемые шаблоны смен</li>
+                <li class="lang-swap">Обмен сменами между сотрудниками</li>
+                <li class="lang-days">Праздничные и особые дни</li>
+                <li class="lang-freechange">Свободные смены</li>
+                <li class="lang-equarement">
+                  Соблюдение трудового законодательства
+                </li>
+                <li class="lang-synch">Синхронизация с календарем</li>
+              </ul>
+              <button class="card-bth lang-pop">Подробнее</button>
+            </div>
+          </div>
+          <div class="number__card">
+            <img src="img/time-managementsecond.png" alt="first-image-card" />
+            <div class="info__card">
+              <span class="span__main lang-control"
+                >Управляй и <br />
+                контролируй</span
+              >
+              <span class="span__card lang-employees"
+                >Контроль сотрудников
+              </span>
+              <br />
+              <ul class="ul__card">
+                <li class="lang-tasks">Назначение задач</li>
+                <li class="lang-controlul">Создание контрольных списков</li>
+                <li class="lang-tracker">Отслеживание опозданий</li>
+                <li class="lang-finish">
+                  Сравнение запланированных и <br />
+                  завершенных задач
+                </li>
+                <li class="lang-hours">
+                  Отчеты об отработанных часах,<br />
+                  зарплатах сотрудников и <br />
+                  отпускным/больничным дням
+                </li>
+              </ul>
+              <button class="card-bth lang-detailsec">Подробнее</button>
+            </div>
+          </div>
+          <div class="number__card">
+            <img src="img/time-managementthree.png" alt="first-image-card" />
+            <div class="info__card">
+              <span class="span__main lang-mashtab">Масштабируй </span>
+              <span class="span__card lang-accept"
+                >Интеграции и <br />
+                неограниченный доступ
+              </span>
+              <br />
+              <ul class="ul__card">
+                <li class="lang-integrations">Возможность интеграции</li>
+                <li class="lang-device">
+                  Доступ 24/7 с любого <br />
+                  устройства с выходом в <br />
+                  Интернет
+                </li>
+                <li class="lang-message">Система уведомлений</li>
+                <li class="lang-universal">Универсальность</li>
+              </ul>
+              <button class="card-bth lang-detailthree">Подробнее</button>
+            </div>
+          </div>
+          <div class="number__card">
+            <img src="img/time-managementfour.png" alt="first-image-card" />
+            <div class="info__card">
+              <span class="span__main lang-weather"
+                >Планируй и<br />
+                составляй прогнозы</span
+              >
+              <span class="span__card lang-prognoz">Оценки и прогнозы </span>
+              <br />
+              <ul class="ul__card lang-cardfour">
+                <li>Планирование перерывов</li>
+                <li>Планирование отпусков</li>
+                <li>Безопасное хранение документов</li>
+              </ul>
+              <button class="card-bth lang-detailfour">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="secondpart__main">
+        <div class="second__container">
+          <h3 class="main__threetitle animate lang-schedules">
+            Автоматизированное создание онлайн расписаний
+          </h3>
+          <div class="main_firstinfo animate">
+            <div class="left_main">
+              <p class="p__main lang-infomain">
+                Онлайн-система Shifton разработана для <br />
+                оптимизации времени и ресурсов в создании <br />
+                рабочих расписаний сотрудников. Shifton - <br />
+                прекрасное решение для компаний любых сфер <br />
+                деятельности и размеров.
+              </p>
+              <button class="nav-bth nav-btn lang-zaregistr">
+                Зарегистирироваться
+              </button>
+            </div>
+            <div class="right__main">
+              <img src="img/iMac.png" alt="imac" class="image__imac" />
+              <img src="img/Ellipse.png" alt="" class="image__elipse" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="threepart__main">
+        <div class="threemain__container">
+          <h4 class="main__titlet animate lang-optimization">
+            Оптимизация командной работы
+          </h4>
+          <div class="main__threepart animate">
+            <div class="mainsecond__img">
+              <img src="img/Мокап.png" alt="imgMocan" class="mokan__img" />
+            </div>
+            <div>
+              <p class="main__threeinfo lang-secondmaininfo">
+                Shifton поможет компании сэкономить <br />
+                средства, минимизировав время простоев в <br />
+                работе. Система автоматически назначает <br />
+                смены сотрудникам, обеспечивая плавный и <br />
+                бесперебойный рабочий процесс на <br />
+                предприятии.
+              </p>
+              <button class="start-bth lang-startwork">Начать работу</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__fourcontainer">
+        <div class="main__fourpart">
+          <h5 class="main__fourtitle animate lang-confused">
+            Управление сменами и перерывами
+          </h5>
+          <div class="main__fourinfo animate">
+            <div class="main__fourp lang-maininfothree">
+              <p>
+                Создавайте комфортные рабочие графики с <br />
+                учетом личных обстоятельств сотрудников. <br />
+                Работники оценят возможность обмениваться <br />
+                сменами или перерывами с коллегами, а в <br />
+                случае замены сотрудника Shifton мгновенно <br />
+                скорректирует любой график.
+              </p>
+              <button class="secondfree-bth lang-startfreesec">
+                Попробовать бесплатно
+              </button>
+            </div>
+            <div class="main__fiverimg">
+              <img src="img/Мокапsecond.png" alt="SecondMokan" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__fivecontainer">
+        <div class="main__fivepart">
+          <h6 class="main__fivetitle animate lang-titlefoot">
+            Shifton - автоматизированный <br />сервис планирования расписаний
+          </h6>
+          <div class="main__fiveinfo animate">
+            <div class="video__container">
+              <iframe
+                width="1000"
+                height="562.27"
+                src="https://www.youtube.com/embed/GjhKsd35JLg?si=O3aa26wNGTd0xIMM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="quests__main animate lang-infofoot">
+              <p>
+                Остались вопросы? С радостью на них ответим! <br />
+                Пишите в чат или на почту
+                <span class="email__span"
+                  ><a href="#">support@shifton.com</a></span
+                >
+              </p>
+            </div>
+            <div class="logo__main animate">
+              <a href="#"><img src="img/Facebook.png" alt="facebook" /></a>
+              <a href="#"> <img src="img/Twitter.png" alt="Twitter" /></a>
+              <a href="#"> <img src="img/Linkedin.png" alt="Linkedin" /></a>
+              <a href="#"><img src="img/Youtube.png" alt="Youtube" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="wrapper__footer">
+      <div class="footer__part">
+        <div class="footer__info">
+          <div class="footer__title animate lang-footinfor">
+            <p>Возможности</p>
+            <p>Блог</p>
+            <p>ЧАВО</p>
+          </div>
+          <hr class="my-line animate" />
+          <div class="footer__img animate">
+            <a href="#"
+              ><img src="img/google-play-badge.png" alt="Google-play"
+            /></a>
+            <a href="#"><img src="img/App_Store.png" alt="App-store" /></a>
+          </div>
+          <div class="footer__feedback animate">
+            <p>
+              Copyright 2017-2021, Shifton. All rights reserved. <br />
+              Privacy Policy | Terms of Use | Сookies
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
