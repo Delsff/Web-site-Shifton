@@ -16,4 +16,4 @@ Language Switcher — supports 3 languages: RU / EN / CZ
 
 Responsive Design — mobile-friendly layout with a hamburger menu (✕)
 
-[view online][https://shifton27.netlify.app/]
+[view online](https://shifton27.netlify.app/)
